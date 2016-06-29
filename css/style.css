@@ -1,0 +1,46 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.welcome {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.logo {
+    height: 200px;
+    margin-top: 50px;
+}
+#values {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
+}
+.flowed {
+    font-weight: 400
+}
+.tier-header {
+    color: white;
+    background: #263238;
+    text-align: center;
+    padding: 10px;
+}
+
+.tier-price {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
