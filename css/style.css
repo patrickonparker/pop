@@ -38,9 +38,23 @@
 .tier-price {
     text-align: center;
     color: white;
-    font-size: 2em;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.tier-row {
+    text-align: center;
+    padding: 3px 10px 1px 10px;
+    background: #e0e0e0;
+}
 
+.tier-footer {
+    text-align: center;
+    padding: 3px 10px 1px 10px;
+    background: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+#footer {
+    margin-top: 0px;
+}
