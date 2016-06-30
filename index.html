@@ -5,23 +5,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>Patrick on Parker</title>
-    <!-- CSS  -->
+    <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" /> </head>
 
 <body>
     <section class="welcome blue-grey darken-4">
-        <div class="container"> <img src="Paths.png" class="logo">
+        <div class="container"> <img src="Paths.png" class="logo"> </div>
+        <div class="carousel">
+            <h4 class="white-text center">Patrick on Parker</h4>
+            <a class="carousel-item modal-trigger" href="#pc"><img class="rounded z-depth-2" src="img/pc.png"></a>
+            <a class="carousel-item modal-trigger" href="#cc"><img class="rounded z-depth-2" src="img/cc.png"></a>
+            <a class="carousel-item modal-trigger" href="#phpk"><img class="rounded z-depth-2" src="img/phpk.png"></a>
+            <a class="carousel-item modal-trigger" href="#ma"><img class="rounded z-depth-2" src="img/ma.png"></a>
+            <a class="carousel-item modal-trigger" href="#saa"><img class="rounded z-depth-2" src="img/saa.png"></a>
         </div>
-            <div class="carousel">
-                <h4 class="white-text center">Patrick on Parker</h4>
-                <a class="carousel-item" href="#five!"><img class="rounded z-depth-2" src="img/pc.png"></a>
-                <a class="carousel-item" href="#one!"><img class="rounded z-depth-2" src="img/cc.png"></a>
-                <a class="carousel-item" href="#two!"><img class="rounded z-depth-2" src="img/phpk.png"></a>
-                <a class="carousel-item" href="#three!"><img class="rounded z-depth-2" src="img/ma.png"></a>
-                <a class="carousel-item" href="#four!"><img class="rounded z-depth-2" src="img/saa.png"></a>
-            </div>
     </section>
     <section>
         <div class="parallax-container" id="values">
@@ -95,8 +94,7 @@
             <div class="container flow-text">
                 <h2>Contact</h2>
                 <div class="row">
-                    <form class="col s12" action="https://formspree.io/patrickonparker@gmail.com"
-      method="POST">
+                    <form class="col s12" action="https://formspree.io/patrickonparker@gmail.com" method="POST">
                         <div class="row">
                             <div class="input-field col s12 m6">
                                 <input id="first_name" type="text" class="validate" name="First Name">
@@ -117,9 +115,7 @@
                             <div class="input-field col s12">
                                 <textarea id="textarea1" class="materialize-textarea" name="Message"></textarea>
                                 <label for="textarea1" class="white-text">Message</label>
-                                <button class="blue-grey darken-4 white-text btn btn-flat waves-effect waves-light" type="submit">Submit
-                                    <i class="material-icons right">send</i>
-                                </button>
+                                <button class="blue-grey darken-4 white-text btn btn-flat waves-effect waves-light" type="submit" id="submit">Submit <i class="material-icons right">send</i> </button>
                             </div>
                         </div>
                     </form>
@@ -127,36 +123,77 @@
             </div>
         </div>
     </section>
-            <footer class="page-footer blue-grey darken-4" id="footer">
-          <div class="container">
+    <footer class="page-footer blue-grey darken-4" id="footer">
+        <div class="container">
             <div class="row">
-              <div class="col s12 m4 center">
-                <h5 class="white-text">Hours</h5>
-                <ul>
-                  <li><p class="grey-text text-lighten-3">Weekdays 7am - 5pm EST</p></li>
-                </ul>
-              </div>
-              <div class="col s12 m4 center">
-                <h5 class="white-text">Email</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="mailto:info@patrickonparker.com">info@patrickonparker.com</a></li>
-                </ul>
-              </div>
-              <div class="col s12 m4 center">
-                <h5 class="white-text">Phone</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="tel:8103575901">(810) 357-5901</a></li>
-                </ul>
-              </div>
+                <div class="col s12 m4 center">
+                    <h5 class="white-text">Hours</h5>
+                    <ul>
+                        <li>
+                            <p class="grey-text text-lighten-3">Weekdays 7am - 5pm EST</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 center">
+                    <h5 class="white-text">Email</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="mailto:info@patrickonparker.com">info@patrickonparker.com</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4 center">
+                    <h5 class="white-text">Phone</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="tel:8103575901">(810) 357-5901</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container center">
-            © 2016 Patrick on Parker
-            </div>
-          </div>
-        </footer>
-    <!--  Scripts-->
+        </div>
+        <div class="footer-copyright">
+            <div class="container center"> © 2016 Patrick on Parker modal-trigger</div>
+        </div>
+    </footer>
+    <!-- Modals -->
+    <div id="pc" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
+        <div class="modal-content">
+            <h4>Preconceive</h4>
+            <a href="http://www.pre-conceive.com" target="_blank"> <img src="/img/pc.png"> </a>
+            <p>Manhattan-based Preconceive was founded to provide a broad range of coaching and care for expecting mothers. This site uses strong imagery to communicate a warm and welcoming message to the target audience. The image above is for a 2.0 version of the site that is still indevelopment.</p>
+        </div>
+        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+    </div>
+    <div id="cc" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
+        <div class="modal-content">
+            <h4>Carla Cares</h4>
+            <a href="http://carlaforstaterep.com" target="_blank"> <img src="/img/cc.png"> </a>
+            <p>Carla Tinsley-Smith is a House of Representatives candidate for Michigan District 2. This site was designed to strongly coordinate with her print media while communicating her values with a modern twist.</p>
+        </div>
+        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+    </div>
+    <div id="phpk" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
+        <div class="modal-content">
+            <h4>Purple Heart Party Kids</h4>
+            <a href="http://purpleheartpartykids.com" target="_blank"> <img src="/img/phpk.png"> </a>
+            <p>Purple Heart Party Kids is a party planning and rental business serving Metro Detroit. This highly-interactive site uses Material Design to maintain a clean look and provide information to customers just as they need them, allowing the imagery to drive sales. The image above is for a 2.0 version of the site that is still in development. You can preview it <a href="http://patrickonparker.github.io/purple-heart-party-kids/">here</a>.</p>
+        </div>
+        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+    </div>
+    <div id="ma" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
+        <div class="modal-content">
+            <h4>Mutual Adoration</h4>
+            <a href="http://mutualadoration.com" target="_blank"> <img src="/img/ma.png"> </a>
+            <p>Mutual Adoration creates housewares and custom-made furniture out of reclaimed wood from Detroit's abandoned homes and industrial sites. This is a customized Shopify storefront using Material Design principles to organize information and comes with an integrated wholesale storefront.</p>
+        </div>
+        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+    </div>
+    <div id="saa" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
+        <div class="modal-content">
+            <h4>SAA Michigan Conference</h4>
+            <a href="http://saamichigan.com" target="_blank"> <img src="/img/saa.png"> </a>
+            <p>This website was designed for the Michigan Sex Addicts Anonymous conference. Material Design practices were used to present information in a concise and visual way.</p>
+        </div>
+        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
+    </div>
+    <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
@@ -165,6 +202,7 @@
             $('.carousel').carousel();
             $('.parallax').parallax();
             $('select').material_select();
+            $('.modal-trigger').leanModal();
         });
     </script>
 </body>
