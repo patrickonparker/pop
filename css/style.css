@@ -14,7 +14,7 @@
 }
 .welcome {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .logo {
     height: 200px;
@@ -57,4 +57,8 @@
 
 #footer {
     margin-top: 0px;
+}
+
+.rounded {
+    border-radius: 10px;
 }
