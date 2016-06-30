@@ -14,13 +14,18 @@
 }
 .welcome {
     text-align: center;
-    padding-bottom: 20px;
+    height: 675px;
 }
 .logo {
-    height: 200px;
+    height: 250px;
     margin-top: 50px;
 }
 #values {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: auto;
+}
+#contact {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     height: auto;
@@ -89,4 +94,7 @@
 }
 .modal-footer{
         background: rgba(255,255,255,0.9);
+}
+.carousel {
+    top: -50px;
 }
