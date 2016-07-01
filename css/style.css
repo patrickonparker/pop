@@ -98,3 +98,9 @@
 .carousel {
     top: -50px;
 }
+.carousel .carousel-item {
+  opacity: 1 !important;
+}
+.carousel a {
+    pointer-events: all;
+}
