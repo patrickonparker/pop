@@ -11,14 +11,13 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" /> </head>
 
 <body>
-    <section class="welcome blue-grey darken-4">
-        <img src="img/Paths-2.png" class="logo">
+    <section class="welcome blue-grey darken-4"> <img src="img/Paths-2.png" class="logo">
         <div class="carousel">
-            <a id="link" class="carousel-item" href="http://www.pre-conceive.com"><img class=" rounded z-depth-2" src="img/pc.png"></a>
-            <img class="carousel-item rounded z-depth-2" src="img/cc.png">
-            <img class="carousel-item rounded z-depth-2" src="img/phpk.png">
-            <img class="carousel-item rounded z-depth-2" src="img/ma.png">
-            <img class="carousel-item rounded z-depth-2" src="img/saa.png">
+            <a class="modal-trigger" target="_blank" href="www.pre-conceive.com"> <img class="carousel-item z-depth-2 " src="img/pc.png"> </a>
+            <a class="modal-trigger" target="_blank" href="www.carlaforstaterep.com"> <img class="carousel-item z-depth-2" src="img/cc.png"> </a>
+            <a class="modal-trigger" target="_blank" href="www.purpleheartpartykids.com"> <img class="carousel-item z-depth-2" src="img/phpk.png"> </a>
+            <a class="modal-trigger" target="_blank" href="www.mutualadoration.com"> <img class="carousel-item z-depth-2" src="img/ma.png"> </a>
+            <a class="modal-trigger" target="_blank" href="www.saamichigan.com"> <img class="carousel-item z-depth-2" src="img/saa.png"> </a>
         </div>
     </section>
     <section>
@@ -148,50 +147,9 @@
             </div>
         </div>
         <div class="footer-copyright">
-            <div class="container center"> © 2016 Patrick on Parker modal-trigger</div>
+            <div class="container center"> © 2016 Patrick on Parker</div>
         </div>
     </footer>
-    <!-- Modals -->
-    <div id="pc" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
-        <div class="modal-content">
-            <h4>Preconceive</h4>
-            <a href="http://www.pre-conceive.com" target="_blank"> <img src="/img/pc.png"> </a>
-            <p>Manhattan-based Preconceive was founded to provide a broad range of coaching and care for expecting mothers. This site uses strong imagery to communicate a warm and welcoming message to the target audience. The image above is for a 2.0 version of the site that is still indevelopment.</p>
-        </div>
-        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
-    </div>
-    <div id="cc" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
-        <div class="modal-content">
-            <h4>Carla Cares</h4>
-            <a href="http://carlaforstaterep.com" target="_blank"> <img src="/img/cc.png"> </a>
-            <p>Carla Tinsley-Smith is a House of Representatives candidate for Michigan District 2. This site was designed to strongly coordinate with her print media while communicating her values with a modern twist.</p>
-        </div>
-        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
-    </div>
-    <div id="phpk" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
-        <div class="modal-content">
-            <h4>Purple Heart Party Kids</h4>
-            <a href="http://purpleheartpartykids.com" target="_blank"> <img src="/img/phpk.png"> </a>
-            <p>Purple Heart Party Kids is a party planning and rental business serving Metro Detroit. This highly-interactive site uses Material Design to maintain a clean look and provide information to customers just as they need them, allowing the imagery to drive sales. The image above is for a 2.0 version of the site that is still in development. You can preview it <a href="http://patrickonparker.github.io/purple-heart-party-kids/">here</a>.</p>
-        </div>
-        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
-    </div>
-    <div id="ma" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
-        <div class="modal-content">
-            <h4>Mutual Adoration</h4>
-            <a href="http://mutualadoration.com" target="_blank"> <img src="/img/ma.png"> </a>
-            <p>Mutual Adoration creates housewares and custom-made furniture out of reclaimed wood from Detroit's abandoned homes and industrial sites. This is a customized Shopify storefront using Material Design principles to organize information and comes with an integrated wholesale storefront.</p>
-        </div>
-        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
-    </div>
-    <div id="saa" class="modal modal-fixed-footer portfolio-modal" style="height: 100vh;">
-        <div class="modal-content">
-            <h4>SAA Michigan Conference</h4>
-            <a href="http://saamichigan.com" target="_blank"> <img src="/img/saa.png"> </a>
-            <p>This website was designed for the Michigan Sex Addicts Anonymous conference. Material Design practices were used to present information in a concise and visual way.</p>
-        </div>
-        <div class="modal-footer"> <a class="modal-action modal-close waves-effect waves-green btn-flat">Close</a> </div>
-    </div>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
@@ -201,10 +159,8 @@
             $('.carousel').carousel();
             $('.parallax').parallax();
             $('select').material_select();
-            $('.modal-trigger').leanModal();
         });
     </script>
-
 </body>
 
 </html>
