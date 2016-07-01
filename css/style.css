@@ -39,68 +39,36 @@
     text-align: center;
     padding: 10px;
 }
-
 .tier-price {
     text-align: center;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .tier-row {
     text-align: center;
     padding: 3px 10px 1px 10px;
     background: #e0e0e0;
 }
-
 .tier-footer {
     text-align: center;
     padding: 3px 10px 1px 10px;
     background: #e0e0e0;
     margin-bottom: 20px;
 }
-
 #footer {
     margin-top: 0px;
 }
-
 .rounded {
     border-radius: 10px;
 }
-
 #submit {
     font-size: 0.75em;
-}
-
-.portfolio-modal{
-    text-align: center;
-    border-radius: 10px;
-    height: 90vh;
-    max-height: 90vh;
-    background: rgba(255,255,255,0.9);
-    position: fixed;
-    top: 10vh;
-    bottom: 10vh;
-}
-.portfolio-modal p{
-    text-align: center;
-    border-radius: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-.portfolio-modal img{
-    height: 70%;
-    border-radius: 10px;
-}
-.modal-footer{
-        background: rgba(255,255,255,0.9);
 }
 .carousel {
     top: -50px;
 }
 .carousel .carousel-item {
   opacity: 1 !important;
-}
-.carousel-item {
-    pointer-events: all;
+  border-radius: 10px;
 }
