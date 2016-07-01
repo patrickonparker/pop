@@ -101,6 +101,6 @@
 .carousel .carousel-item {
   opacity: 1 !important;
 }
-.carousel a {
+.carousel-item {
     pointer-events: all;
 }
