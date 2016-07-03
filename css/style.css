@@ -14,7 +14,6 @@
 }
 .welcome {
     text-align: center;
-    height: 750px;
     font-size:18px;
 }
 .logo {
@@ -68,6 +67,7 @@
 }
 .carousel {
     top: -50px;
+    height: 315px;
 }
 .carousel .carousel-item {
   opacity: 1 !important;
