@@ -36,6 +36,9 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     background-color: rgba(0, 0, 0, 0.7);
     height: auto;
 }
+#pricing {
+    background: #ccc;
+}
 #contact {
     color: white;
     background-color: rgba(0, 0, 0, 0.55);
@@ -109,4 +112,7 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     left: calc(50vw - 37.5vh);
     border-radius: 50%;
     overflow: hidden;
+}
+.collection {
+    border: none !important;
 }
