@@ -100,7 +100,7 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
 .circleClip {
     position: absolute;
     width: 75vh;
-    height: 75vh;
+    height: calc(75vh - 1px);
     top: 12.5vh;
     left: calc(50vw - 37.5vh);
     border-radius: 50%;
