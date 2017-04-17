@@ -6,6 +6,7 @@
  * Made By MaterializeCSS.com
  */
 section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
+.container {padding-top: 20px; padding-bottom: 20px;}
 .icon-block {
   padding: 0 15px;
 }
@@ -16,7 +17,7 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     text-align: center;
 }
 .logo {
-    height: 25vh;
+    height: 30vh;
     margin-top: 8vh;
     position: relative;
     z-index: 1;
@@ -25,18 +26,19 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
 .slogan {
     position: relative;
     z-index: 1;
-    font-size: calc(6px + .6vw);
+    font-size: calc(11px + .6vw);
     color: white;
-
+    margin-bottom: 0px;
+    padding: 0px 15% 0px 15%;
 }
 #values {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     height: auto;
 }
 #contact {
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.55);
     height: auto;
 }
 .flowed {
@@ -54,16 +56,18 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.tier-row {
+.services {
     text-align: center;
-    padding: 3px 10px 1px 10px;
-    background: #e0e0e0;
+    background: #263238;
 }
+.services-row {}
 .tier-footer {
     text-align: center;
     padding: 3px 10px 1px 10px;
-    background: #e0e0e0;
+    background: #263238 !important;
+    color: white;
     margin-bottom: 20px;
+    font-weight: 300;
 }
 #footer {
     margin-top: 0px;
