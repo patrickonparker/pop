@@ -5,9 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
-section:nth-child(1) {text-align: center;}
-section:nth-child(2) {top: -75px;}
-section:nth-child(1) .container {width: 75vw; max-width: 600px !important;}
+section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
 .icon-block {
   padding: 0 15px;
 }
@@ -16,12 +14,10 @@ section:nth-child(1) .container {width: 75vw; max-width: 600px !important;}
 }
 .welcome {
     text-align: center;
-    font-size:18px;
 }
 .logo {
-    width: 40%;
-    max-width: 200px;
-    margin-top: 22%;
+    height: 25vh;
+    margin-top: 8vh;
     position: relative;
     z-index: 1;
 }
@@ -79,9 +75,7 @@ section:nth-child(1) .container {width: 75vw; max-width: 600px !important;}
     font-size: 0.75em;
 }
 .carousel {
-    position: relative;
-    top: -75px;
-    z-index: 3;
+    margin-top: -75px;
 }
 .carousel-item {
   opacity: 1 !important;
@@ -102,4 +96,13 @@ section:nth-child(1) .container {width: 75vw; max-width: 600px !important;}
 #textarea1:focus {
     border-bottom: 1px solid white;
     box-shadow: 0 1px 0 0 white;
+}
+.circleClip {
+    position: absolute;
+    width: 75vh;
+    height: 75vh;
+    top: 12.5vh;
+    left: calc(50vw - 37.5vh);
+    border-radius: 50%;
+    overflow: hidden;
 }
