@@ -112,8 +112,8 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     left: calc(50vw - 37.5vh);
     border-radius: 50%;
     overflow: hidden;
-    -webkit-transform-origin: 37.5vh;
-    transform-origin: 37.5vh;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
 }
 .collection {
     border: none !important;
