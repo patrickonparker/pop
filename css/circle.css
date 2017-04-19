@@ -6,7 +6,7 @@
     transform: rotate(360deg);
   }
 }
-.circle {
+.spincircle {
   z-index: 2;
   position: absolute;
   width: 75vh;
@@ -18,10 +18,10 @@
   box-shadow: inset 1.51554446em -0.875em 0em 0em rgba(255, 255, 255, 0.35), inset -1.51554446em -0.875em 0em 0em rgba(255, 255, 255, 0.44), inset 0 1.75em 0em 0em rgba(255, 255, 255, 0.43), inset -1.51554446em 0.875em 0em 0em rgba(255, 255, 255, 0.45), inset 1.51554446em 0.875em 0em 0em rgba(255, 255, 255, 0.45), inset 0 -1.75em 0em 0em rgba(255, 255, 255, 0.44), inset 0px 0px 200px black;
   animation: spin 90s linear infinite;
 }
-.circle:hover {
+.spincircle:hover {
   box-shadow: inset 0.75777223em -0.4375em 0em 0em rgba(255, 255, 255, 0.35), inset -0.75777223em -0.4375em 0em 0em rgba(255, 255, 255, 0.44), inset 0 0.875em 0em 0em rgba(255, 255, 255, 0.43), inset -0.75777223em 0.4375em 0em 0em rgba(255, 255, 255, 0.45), inset 0.75777223em 0.4375em 0em 0em rgba(255, 255, 255, 0.45), inset 0 -0.875em 0em 0em rgba(255, 255, 255, 0.44), inset 0px 0px 200px black;
 }
-.circle:before {
+.spincircle:before {
   content: "";
   display: block;
   padding-top: 100%;
