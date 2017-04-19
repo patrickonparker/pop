@@ -111,8 +111,7 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     top: 12.5vh;
     left: calc(50vw - 37.5vh);
     border-radius: 50%;
-    overflow: hidden !important;
- -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+    overflow: hidden;
 }
 .collection {
     border: none !important;
