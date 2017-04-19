@@ -14,7 +14,7 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
 	font-size: inherit;
 }
 .welcome {
-    text-align: center; overflow: hidden !important; position: relative;
+    text-align: center; overflow: hidden !important;
 }
 .logo {
     height: 30vh;
@@ -112,6 +112,7 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     left: calc(50vw - 37.5vh);
     border-radius: 50%;
     overflow: hidden !important;
+ -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
 }
 .collection {
     border: none !important;
