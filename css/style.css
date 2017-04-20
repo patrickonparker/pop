@@ -85,7 +85,7 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
 }
 .carousel-item {
   opacity: 1 !important;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 #first_name:focus {
     border-bottom: 1px solid white;
