@@ -14,7 +14,7 @@
   left: calc(50vw - 37.5vh);
   border-radius: 50%;
   transition: all .1s ease;
-  box-shadow: inset 1.51554446em -0.875em 0em 0em rgba(255, 255, 255, 0.35), inset -1.51554446em -0.875em 0em 0em rgba(255, 255, 255, 0.44), inset 0 1.75em 0em 0em rgba(255, 255, 255, 0.43), inset -1.51554446em 0.875em 0em 0em rgba(255, 255, 255, 0.45), inset 1.51554446em 0.875em 0em 0em rgba(255, 255, 255, 0.45), inset 0 -1.75em 0em 0em rgba(255, 255, 255, 0.44), inset 0px 0px 200px black;
+  box-shadow: inset 1.51554446em -0.875em 0em 0em rgba(255, 255, 255, 0.35), inset -1.51554446em -0.875em 0em 0em rgba(255, 255, 255, 0.44), inset 0 1.75em 0em 0em rgba(255, 255, 255, 0.43), inset -1.51554446em 0.875em 0em 0em rgba(255, 255, 255, 0.45), inset 1.51554446em 0.875em 0em 0em rgba(255, 255, 255, 0.45), inset 0 -1.75em 0em 0em rgba(255, 255, 255, 0.44), inset 0px 0px 150px black;
   animation: spin 25s linear infinite;
 }
 .circle:hover {
