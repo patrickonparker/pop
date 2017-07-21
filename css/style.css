@@ -1,68 +1,32 @@
 /* Custom Stylesheet */
+
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
  *
  * Made By MaterializeCSS.com
  */
-section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
-.container {padding-top: 20px; padding-bottom: 20px;}
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
-.welcome {
-    text-align: center; overflow: hidden !important;
-}
-.logo {
-    height: 30vh;
-    margin-top: 8vh;
-    position: relative;
-    z-index: 1;
-}
 
-.slogan {
-    position: relative;
-    z-index: 1;
-    font-size: calc(11px + .6vw);
-    color: white;
-    margin-bottom: 0px;
-    padding: 0px 15% 0px 15%;
-}
-#values {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    height: auto;
-}
-#pricing {
-    background: #ccc;
-}
-#contact {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.55);
-    height: auto;
-}
-.flowed {
-    font-weight: 400
-}
 .tier-header {
     color: white;
     background: #263238;
     text-align: center;
     padding: 10px;
 }
+
 .tier-price {
     text-align: center;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .services {
     text-align: center;
     background: #263238;
 }
+
 .tier-footer {
     text-align: center;
     padding: 3px 10px 1px 10px;
@@ -71,49 +35,131 @@ section:nth-child(1) {text-align: center; height: 100vh; position: relative;}
     margin-bottom: 20px;
     font-weight: 300;
 }
+
 #footer {
     margin-top: 0px;
 }
+
 .rounded {
     border-radius: 10px;
 }
-#submit {
-    font-size: 0.75em;
+
+.topNav {
+    min-height: 75px;
+    padding: 25px 50px 0px 220px;
+    text-align: right;
 }
-.carousel {
-    margin-top: -75px;
+
+.pathsLogo {
+    height: 100px;
+    margin-top: 10px;
 }
-.carousel-item {
-  opacity: 1 !important;
-  border-radius: 5px;
-}
-#first_name:focus {
-    border-bottom: 1px solid white;
-    box-shadow: 0 1px 0 0 white;
-}
-#last_name:focus {
-    border-bottom: 1px solid white;
-    box-shadow: 0 1px 0 0 white;
-}
-#email:focus {
-    border-bottom: 1px solid white;
-    box-shadow: 0 1px 0 0 white;
-}
-#textarea1:focus {
-    border-bottom: 1px solid white;
-    box-shadow: 0 1px 0 0 white;
-}
-.circleClip {
-    position: absolute;
-    width: 75vh;
-    height: calc(75vh - 1px);
-    top: 12.5vh;
-    left: calc(50vw - 37.5vh);
+
+.logoContainer {
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
-    overflow: hidden;
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    top: 13px;
+    left: 50px;
+    z-index: 999;
 }
-.collection {
-    border: none !important;
+
+.logoContainer:after {
+    content: '';
+    border: 3px solid;
+    border-left-color: #ff1744;
+    border-top-color: #ff6f00;
+    border-right-color: #1de9b6;
+    border-bottom-color: #29b6f6;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.topNav .material-icons {
+    margin-left: 25px;
+}
+
+.underNav {
+    padding: 0px 50px 0px 220px;
+    min-height: 75px;
+    box-shadow: inset
+}
+
+.row {
+    margin: 0px;
+}
+
+.section {
+    margin: 0px;
+}
+
+.carousel-item {
+    height: auto !important;
+    width: auto !important;
+    max-height: 75%;
+    max-width: 75%;
+    border-radius: 10px;
+    opacity: 1 !important;
+}
+
+.carousel {
+    height: 100%
+}
+
+#gallery {
+    height: calc(100vh - 150px);
+    box-shadow: inset 0px -10vh 20vh rgba(0, 0, 0, 0.3)
+}
+
+#values {
+    color: white !important;
+    background: rgba(0, 0, 0, 0.6);
+    max-height: none;
+    height: auto;
+    padding: 1em 0px;
+}
+
+.title {
+    float: left;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.services {
+    margin: 2.5em 0px;
+    color: white;
+    line-height: 3em;
+}
+
+.services .col {
+    padding: 1em;
+}
+
+.services .row {
+    padding: 1em 2em;
+}
+
+.services .col div {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.3)
+}
+
+footer {
+    padding-bottom: 1em;
 }
