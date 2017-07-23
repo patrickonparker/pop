@@ -9625,7 +9625,6 @@ if (jQuery) {
         function tap(e) {
           // Fixes firefox draggable image bug
           if (e.type === 'mousedown' && $(e.target).is('img')) {
-            e.preventDefault();
           }
           pressed = true;
           dragged = false;
