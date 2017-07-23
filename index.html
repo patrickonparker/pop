@@ -313,25 +313,6 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
     <script src="js/materialize.js "></script>
     <script src="js/init.js "></script>
-    <script>
-        $(document).ready(function () {
-            $('.modal').modal();
-            $('.carousel').carousel({
-                dist: -400,
-                shift: 300,
-                indicators: true
-            });
-            $('.parallax').parallax();
-            $('select').material_select();
-
-            autoplay()
-
-            function autoplay() {
-                $('.carousel').carousel('next');
-                setTimeout(autoplay, 7000);
-            }
-        });
-    </script>
 </body>
 
 </html>
