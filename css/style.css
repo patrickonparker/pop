@@ -1,6 +1,5 @@
 /* Custom Stylesheet */
 
-
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -249,4 +248,28 @@ footer {
     font-weight: 600;
     position: relative;
     top: 40px;
+}
+
+.contactInfoHeader1 {
+    margin-left: 5px;
+    position: relative;
+    bottom: 8px;
+}
+
+.contactInfoHeader2 {
+    margin-left: 5px;
+    position: relative;
+    bottom: 8px;
+}
+
+@media screen and (max-width: 719px) {
+    .contactInfoHeader1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .contactInfoHeader2 {
+        display: none;
+    }
 }
