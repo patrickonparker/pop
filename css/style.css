@@ -242,15 +242,15 @@ footer {
 }
 
 .contactInfoHeader1 {
-    margin-left: 5px;
-    position: relative;
-    bottom: 8px;
+    margin-left: 5px !important;
+    position: relative !important;
+    bottom: 8px !important;
 }
 
 .contactInfoHeader2 {
-    margin-left: 5px;
-    position: relative;
-    bottom: 8px;
+    margin-left: 5px !important;
+    position: relative !important;
+    bottom: 8px !important;
 }
 
 @media screen and (max-width: 719px) {
