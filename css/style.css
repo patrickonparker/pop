@@ -188,19 +188,6 @@ footer {
     padding-bottom: 1em;
 }
 
-.bottom-sheet {
-    height: 100vh;
-    max-height: none !important;
-    position: fixed;
-    top: 20px;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    width: 100%;
-    color: white;
-    box-shadow: inset 0px calc(-5vh - 50px) 8vh rgba(0, 0, 0, 0.5);
-}
-
 .modal-footer {
     position: absolute;
     bottom: 0px;
@@ -211,6 +198,17 @@ footer {
 
 .modal-content .row {
     height: 100%;
+    color: white;
+}
+
+.modal {
+    padding-left: 30px;
+    padding-bottom: 60px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 .modal-content img {
@@ -384,4 +382,9 @@ footer {
 }
 .active {
     font-weight: 500;
+}
+.modal {
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 1)
 }
