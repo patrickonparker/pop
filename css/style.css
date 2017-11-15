@@ -389,11 +389,83 @@ footer {
     border-radius: 10px !important;
 }
 
-.redNeon {
-    padding-right: .3em;
-    font-weight: 500;
-    -webkit-text-stroke-color: red;
-    -webkit-text-stroke-width: 1px;
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0px 0px 30px red;
+@media (-webkit-min-device-pixel-ratio: 1) {
+    .redNeon {
+        font-weight: 600;
+        -webkit-text-stroke-color: red;
+        -webkit-text-stroke-width: 2px;
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0px 0px 30px red;
+
+    }
+
+    .greenNeon {
+        font-weight: 600;
+        -webkit-text-stroke-color: #44dd44;
+        -webkit-text-stroke-width: 2px;
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0px 0px 30px #44dd44;
+        animation: letter-flicker 3s linear infinite;
+
+    }
+
+    .blueNeon {
+        font-weight: 600;
+        -webkit-text-stroke-color: #44ccdd;
+        -webkit-text-stroke-width: 2px;
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0px 0px 30px #44ccdd;
+
+    }
+
+    .whiteNeon {
+        font-weight: 600;
+        -webkit-text-stroke-color: #fff;
+        -webkit-text-stroke-width: 2px;
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0px 0px 30px #fff;
+
+    }
+
+    @keyframes letter-flicker {
+        0% {
+            opacity: 0.1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+        2% {
+            opacity: 0.1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+        4% {
+            opacity: 1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+
+
+        19% {
+            opacity: 1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+        21% {
+            opacity: 0.1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+        23% {
+            opacity: 1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+
+        80% {
+            opacity: 1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+        83% {
+            opacity: 0.4;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+        87% {
+            opacity: 1;
+            text-shadow: 0px 0px 30px #44dd44;
+        }
+    }
 }
