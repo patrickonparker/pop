@@ -35,7 +35,7 @@
 }
 
 .topNav {
-    background: rgba(0, 0, 0, 0), url('img/wood.jpg');
+    background: url('http://patrickonparker.com/img/wood.jpg');
     min-height: 75px;
     padding: 27px 50px 0px 220px;
     text-align: right;
@@ -110,6 +110,7 @@
 
 .topNav .material-icons {
     margin-left: 15px;
+    padding-right: 5px;
 }
 
 .underNav {
@@ -386,4 +387,13 @@ footer {
     background: black !important;
     text-align: center !important;
     border-radius: 10px !important;
+}
+
+.redNeon {
+    padding-right: .3em;
+    font-weight: 500;
+    -webkit-text-stroke-color: red;
+    -webkit-text-stroke-width: 1px;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0px 0px 30px red;
 }
