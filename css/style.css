@@ -200,7 +200,10 @@ footer {
     height: 55vh;
     border-radius: 5px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
-    float: right;
+}
+
+.modal .hide-on-med-and-down {
+    text-align: center;
 }
 
 .st-live {
@@ -331,9 +334,6 @@ footer {
     }
 }
 
-
-}
-
 .proposal-item {
     padding: 1.5em 1em .5em 1em;
     border-radius: 5px;
@@ -381,7 +381,8 @@ footer {
     border-radius: 10px;
     box-shadow: 0px 0px 80px rgba(0, 0, 0, 1);
     color: white;
-    width: 80%;
+    width: 70%;
+    max-height: 80%;
 }
 
 .modal-footer {
