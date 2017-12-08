@@ -111,6 +111,7 @@
 .topNav .material-icons {
     margin-left: 15px;
     padding-right: 5px;
+    font-size: 30px;
 }
 
 .underNav {
@@ -394,7 +395,7 @@ footer {
 
 @media (-webkit-min-device-pixel-ratio: 1) {
     .redNeon {
-        font-weight: 600;
+        font-weight: 400;
         -webkit-text-stroke-color: red;
         -webkit-text-stroke-width: 2px;
         color: rgba(0, 0, 0, 0);
@@ -403,31 +404,28 @@ footer {
     }
 
     .greenNeon {
-        font-weight: 600;
+        font-weight: 400;
         -webkit-text-stroke-color: #44dd44;
         -webkit-text-stroke-width: 2px;
         color: rgba(0, 0, 0, 0);
         text-shadow: 0px 0px 30px #44dd44;
         animation: letter-flicker 3s linear infinite;
-
     }
 
     .blueNeon {
-        font-weight: 600;
+        font-weight: 400;
         -webkit-text-stroke-color: #44ccdd;
         -webkit-text-stroke-width: 2px;
         color: rgba(0, 0, 0, 0);
         text-shadow: 0px 0px 30px #44ccdd;
-
     }
 
     .whiteNeon {
-        font-weight: 600;
+        font-weight: 400;
         -webkit-text-stroke-color: #fff;
         -webkit-text-stroke-width: 2px;
         color: rgba(0, 0, 0, 0);
         text-shadow: 0px 0px 30px #fff;
-
     }
 
     @keyframes letter-flicker {
