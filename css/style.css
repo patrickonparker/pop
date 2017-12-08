@@ -382,7 +382,8 @@ footer {
     box-shadow: 0px 0px 80px rgba(0, 0, 0, 1);
     color: white;
     width: 70%;
-    max-height: 80%;
+    max-height: 85%;
+    min-width: 600px;
 }
 
 .modal-footer {
