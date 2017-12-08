@@ -383,7 +383,7 @@ footer {
     color: white;
     width: 70%;
     max-height: 85%;
-    min-width: 350;
+    min-width: 320px;
 }
 
 .modal-footer {
