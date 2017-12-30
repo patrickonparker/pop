@@ -3,6 +3,8 @@
     background: #263238;
     text-align: center;
     padding: 10px;
+    border-top-left-radius: px;
+    border-top-right-radius: px;
 }
 
 .tier-price {
@@ -41,6 +43,7 @@
     text-align: right;
     z-index: 998;
     position: relative;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
 }
 
 .pathsLogo {
@@ -144,15 +147,27 @@
 
 #gallery {
     height: calc(100vh - 150px);
-    box-shadow: inset 0px -5vh 8vh rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 50vh rgba(0, 0, 0, 0.75);
+    background-color: #111119;
+    background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+    background-position: center center;
 }
 
 #values {
     color: white !important;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.65);
     max-height: none;
     height: auto;
-    padding: 1em 0px;
+    padding: 5em 0px;
+    border-top: 1px solid #333;
+    text-shadow: 1px 1px 3px black;
+}
+
+#pricing {
+    padding: 3em 0em;
+    background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+    background-position: center center;
+    background-color: white !important;
 }
 
 .title {
@@ -189,6 +204,11 @@
 
 footer {
     padding-bottom: 1em;
+    background-color: #1B2327 !important;
+}
+
+.footer-copyright {
+    background-color: #1B2327 !important;
 }
 
 .modal-content .row {
@@ -392,6 +412,11 @@ footer {
     border-radius: 10px !important;
 }
 
+.parallax {
+    filter: contrast(1.5);
+    filter: blur(5px);
+}
+
 @media (-webkit-min-device-pixel-ratio: 1) {
     .redNeon {
         font-weight: 400;
@@ -399,9 +424,7 @@ footer {
         -webkit-text-stroke-width: 2px;
         color: rgba(0, 0, 0, 0);
         text-shadow: 0px 0px 30px red;
-
     }
-
     .greenNeon {
         font-weight: 400;
         -webkit-text-stroke-color: #44dd44;
@@ -410,7 +433,6 @@ footer {
         text-shadow: 0px 0px 30px #44dd44;
         animation: letter-flicker 3s linear infinite;
     }
-
     .blueNeon {
         font-weight: 400;
         -webkit-text-stroke-color: #44ccdd;
@@ -418,7 +440,6 @@ footer {
         color: rgba(0, 0, 0, 0);
         text-shadow: 0px 0px 30px #44ccdd;
     }
-
     .whiteNeon {
         font-weight: 400;
         -webkit-text-stroke-color: #fff;
@@ -426,7 +447,6 @@ footer {
         color: rgba(0, 0, 0, 0);
         text-shadow: 0px 0px 30px #fff;
     }
-
     @keyframes letter-flicker {
         0% {
             opacity: 0.1;
@@ -440,8 +460,6 @@ footer {
             opacity: 1;
             text-shadow: 0px 0px 30px #44dd44;
         }
-
-
         19% {
             opacity: 1;
             text-shadow: 0px 0px 30px #44dd44;
@@ -454,7 +472,6 @@ footer {
             opacity: 1;
             text-shadow: 0px 0px 30px #44dd44;
         }
-
         80% {
             opacity: 1;
             text-shadow: 0px 0px 30px #44dd44;
