@@ -138,9 +138,9 @@
 
 .carouselImg {
     height: auto;
-    width: 60vw !important;
+    width: 50vw !important;
     max-width: 800px !important;
-    min-width: 360px;
+    min-width: 300px !important;
     border-radius: 10px;
 }
 
