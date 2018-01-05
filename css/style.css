@@ -131,18 +131,52 @@
 }
 
 .carousel-item {
-    height: auto !important;
-    width: auto !important;
-    max-height: 75%;
-    max-width: 75%;
-    border-radius: 10px;
     opacity: 1 !important;
-    cursor: pointer;
-    z-index: 12;
+    width: auto !important;
+    height: auto !important;
+}
+
+.carouselImg {
+    height: auto;
+    width: 60vw !important;
+    max-width: 800px !important;
+    min-width: 360px;
+    border-radius: 10px;
 }
 
 .carousel {
-    height: 100%
+    height: 100%;
+}
+
+.info {
+    position: absolute;
+    top: 100%;
+    width: 300px;
+    color: white;
+    padding: 10px 0px;
+    left: calc(50% - 150px);
+    background: black;
+    margin-top: -5px;
+    text-align: center;
+    display: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 20px;
+}
+
+.carousel-item.active .info {
+    display: block;
+}
+
+.shopify {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url(../img/shopify.png);
+    background-size: contain;
+    filter: saturate(0) brightness(100);
+    position: relative;
+    top: 2px;
 }
 
 #gallery {
@@ -216,8 +250,8 @@ footer {
     color: white;
 }
 
-.modal-content img {
-    height: 55vh;
+.modal-content picture {
+    height: 50vh;
     border-radius: 5px;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.75);
 }
