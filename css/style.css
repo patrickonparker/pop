@@ -37,7 +37,7 @@
 }
 
 .topNav {
-    background: url('http://patrickonparker.com/img/wood.jpg');
+    background: url(“../img/wood.jpg”);
     min-height: 75px;
     padding: 27px 50px 0px 220px;
     text-align: right;
