@@ -23,6 +23,16 @@
     </section>
     <section id="mobileHeader" class="blue-grey darken-4 white-text hide-on-med-and-up"><span class="mobileTitle">Patrick on Parker</span></section>
     <section id="gallery" class="valign-wrapper hide-on-med-and-down" style="overflow: hidden; position: relative;">
+        <div class="fixed-action-btn" style="position: absolute;">
+            <a class="btn-floating blue-grey darken-3" onclick="$('.carousel').carousel('next');">
+                <i class="large material-icons">arrow_forward</i>
+            </a>
+        </div>
+        <div class="fixed-action-btn" style="position: absolute; left: 24px; right: auto;">
+            <a class="btn-floating blue-grey darken-3" onclick="$('.carousel').carousel('prev');">
+                <i class="large material-icons">arrow_back</i>
+            </a>
+        </div>
         <div class="guilloche" style="filter: opacity(0.05)"></div>
         <div class="carousel animated fadeInUp">
             <div class="carousel-item">
@@ -199,7 +209,8 @@
             <div class="col s12 m12 l12">
                 <div class="collection services blue-grey darken-3" style="text-align: center;">
                     <div class="collection-item white-text blue-grey darken-4 z-depth-3" style="border: none;">
-                        <h4>Services</h4> </div>
+                        <h4>Services</h4>
+                    </div>
                     <div class="row">
                         <div class="col l4 m4 s12">
                             <div>Web Design</div>
@@ -285,7 +296,7 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.modal').modal();
             $('.parallax').parallax();
             $('ul.tabs').tabs();
@@ -293,6 +304,7 @@
                 indicators: true
             });
         });
+
     </script>
 </body>
 
