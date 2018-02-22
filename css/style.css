@@ -156,7 +156,7 @@
     padding: 10px 0px;
     left: calc(50% - 150px);
     background: black;
-    margin-top: 0px;
+    margin-top: -5px;
     text-align: center;
     display: none;
     border-bottom-left-radius: 15px;
