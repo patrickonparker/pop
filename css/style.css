@@ -139,7 +139,7 @@
 .carouselImg {
     height: auto;
     width: 50vw !important;
-    max-width: 800px !important;
+    max-width: 600px !important;
     min-width: 320px !important;
     border-radius: 10px;
 }
@@ -156,7 +156,7 @@
     padding: 10px 0px;
     left: calc(50% - 150px);
     background: black;
-    margin-top: -5px;
+    margin-top: 0px;
     text-align: center;
     display: none;
     border-bottom-left-radius: 15px;
@@ -173,6 +173,17 @@
     width: 20px;
     display: inline-block;
     background-image: url(../img/shopify.png);
+    background-size: contain;
+    filter: saturate(0) brightness(100);
+    position: relative;
+    top: 2px;
+}
+
+.photoshop {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background-image: url(../img/photoshop.png);
     background-size: contain;
     filter: saturate(0) brightness(100);
     position: relative;
@@ -205,7 +216,7 @@
 #mobileGallery .info {
     display: block;
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
     width: 100%;
     left: 0px;
 }
@@ -442,7 +453,7 @@ footer {
     width: calc(100% - 22px) !important;
     background: rgba(0, 0, 0, 0.8);
     margin-left: 11px !important;
-    padding: 0px 15px!important;
+    padding: 0px 15px !important;
     border-top: 1px solid dimgrey;
     text-align: left;
     border-bottom-left-radius: 4px;
