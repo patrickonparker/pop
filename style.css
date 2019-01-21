@@ -1,0 +1,314 @@
+.tier-header {
+    color: white;
+    background: #263238;
+    text-align: center;
+    padding: 10px;
+    border-top-left-radius: px;
+    border-top-right-radius: px;
+}
+
+.tier-price {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.services {
+    text-align: center;
+    background: #263238;
+}
+
+.tier-footer {
+    text-align: center;
+    padding: 3px 10px 1px 10px;
+    background: #263238 !important;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#footer {
+    margin-top: 0px;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.topNav {
+    background-image: url("../img/wood.jpg");
+    min-height: 75px;
+    padding: 27px 50px 0px 220px;
+    text-align: right;
+    z-index: 998;
+    position: relative;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.pathsLogo {
+    height: 100px;
+    margin-top: 12px;
+}
+
+.logoContainer {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 13px;
+    left: 50px;
+    z-index: 999;
+}
+
+.logoContainerMobile {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 88px;
+    left: calc(50vw - 62.5px);
+    z-index: 999;
+}
+
+.logoContainer:after {
+    content: '';
+    border: 3px solid;
+    border-left-color: #d32f2f;
+    border-top-color: #ffa000;
+    border-right-color: #43a047;
+    border-bottom-color: #039be5;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.logoContainerMobile:after {
+    content: '';
+    border: 3px solid;
+    border-left-color: #d32f2f;
+    border-top-color: #ffa000;
+    border-right-color: #43a047;
+    border-bottom-color: #29b6f6;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.topNav .material-icons {
+    margin-left: 15px;
+    padding-right: 5px;
+}
+
+.underNav {
+    padding: 0px 50px 0px 220px;
+    min-height: 75px;
+    box-shadow: 0px 0px 150px rgba(0, 0, 0, 1)
+}
+
+.row {
+    margin: 0px;
+}
+
+.section {
+    margin: 0px;
+}
+
+.carousel-item {
+    opacity: 1 !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.carouselImg {
+    height: auto;
+    width: 50vw !important;
+    max-width: 600px !important;
+    min-width: 320px !important;
+    border-radius: 10px;
+}
+
+.carousel {
+    height: 100%;
+}
+
+#gallery .carousel-item.active .info {
+    display: block;
+}
+
+#mobileGallery .col {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#gallery {
+    height: calc(100vh - 150px);
+    box-shadow: inset 0px 0px 50vh rgba(0, 0, 0, 0.75);
+    background-color: #111119;
+    background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+    background-position: center center;
+}
+
+#mobileGallery {
+    box-shadow: inset 0px 0px 50vh rgba(0, 0, 0, 0.75);
+    background-color: #111119;
+    background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+    background-position: center center;
+    padding: 60px 0px;
+}
+
+.mobileGalleryImg {
+    width: 100%;
+    margin-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#values {
+    color: white !important;
+    background: rgba(0, 0, 0, 0.65);
+    max-height: none;
+    height: auto;
+    padding: 5em 0px;
+    border-top: 1px solid #333;
+    text-shadow: 1px 1px 3px black;
+}
+
+#pricing {
+    padding: 3em 0em;
+    background-position: center center;
+    background-color: white !important;
+}
+
+.title {
+    float: left;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+}
+
+.services {
+    margin: 2.5em 0px;
+    color: white;
+    line-height: 3em;
+}
+
+.services .col {
+    padding: 1em;
+}
+
+.services .row {
+    padding: 1em 2em;
+}
+
+.services .col div {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+
+footer {
+    padding-bottom: 1em;
+    background-color: #1B2327 !important;
+}
+
+.footer-copyright {
+    background-color: #1B2327 !important;
+}
+
+.modal-content .row {
+    height: 100%;
+    color: white;
+}
+
+#mobileHeader {
+    height: 150px;
+    text-align: center;
+}
+
+.mobileTitle {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 40px;
+}
+
+.contactInfoHeader1 {
+    margin-left: 5px !important;
+    position: relative !important;
+    bottom: 8px !important;
+}
+
+.contactInfoHeader2 {
+    margin-left: 5px !important;
+    position: relative !important;
+    bottom: 8px !important;
+}
+
+.guilloche {
+    content: '';
+    position: absolute;
+    width: calc((100vw + 100vh) / 2);
+    height: calc((100vw + 100vh) / 2);
+    background: url("../img/guilloche.png") no-repeat;
+    background-size: cover;
+    top: calc(50% - ((100vw + 100vh) / 4));
+    left: calc(50% - ((100vw + 100vh) / 4));
+    animation: spin 100s infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .contactInfoHeader1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .contactInfoHeader2 {
+        display: none;
+    }
+}
