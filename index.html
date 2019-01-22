@@ -1,298 +1,270 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-    <title>Patrick on Parker</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- NAV -->
-    <div class="logoContainer blue-grey darken-4 center hide-on-small-only z-depth-3">
-        <img src="img/Paths.png" class="pathsLogo">
-    </div>
-    <div class="logoContainerMobile blue-grey darken-4 center hide-on-med-and-up">
-        <img src="img/Paths.png" class="pathsLogo">
-    </div>
-    <section class=" topNav z-depth-3 hide-on-small-only">
-        <span class="title white-text">Patrick on Parker</span>
-        <a href="tel:3133896074" target="_blank" class="white-text">
-            <span class="material-icons">&#xE0B0;</span>
-            <span class='contactInfoHeader1'>(313) 389-6074</span>
-        </a><a href="sms:3133896074" target="_blank" class="white-text">
-            <span class="material-icons">&#xE0B7;</span>
-            <span class='contactInfoHeader2'>(313) 389-6074</span>
-        </a>
-        <a href="mailto:patrickonparker@gmail.com" target="_blank" class="white-text">
-            <span class="material-icons" style="vertical-align:1.5px">&#xE0BE;</span>
-            <span class='contactInfoHeader2'>patrickonparker@gmail.com</span>
-        </a>
-    </section>
-    <section class="grey darken-4 underNav valign-wrapper hide-on-small-only">
-        <div class="white-text center slogan">Patrick on Parker offers full-stack web development, marketing, branding and business solutions for Metro Detroit nonprofits, businesses, schools &amp; social organizations.</div>
-    </section>
-    <section id="mobileHeader" class="blue-grey darken-4 white-text hide-on-med-and-up">
-        <span class="mobileTitle">Patrick on Parker</span>
-    </section>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper black z-depth-3">
+				<a href="#!" class="brand-logo">
+					<img src="assets/logo-small.png" alt="" height=75%>
+				</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li class="green waves-effect waves-light"><a href="tel:3133896074"><i class="material-icons left">phone</i>313-389-6074</a></li>
+					<li class="light-blue waves-effect waves-light"><a href="sms:3133896074"><i class="material-icons left">chat_bubble</i>313-389-6074</a></li>
+					<li class="red waves-effect waves-light"><a href="mailto:info@patrickonparker.com"><i class="material-icons left">email</i>info@patrickonparker.com</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
 
-    <!-- DESKTOP GALLERY -->
-    <section id="gallery" class="valign-wrapper hide-on-med-and-down" style="overflow: hidden; position: relative;">
-        <div class="guilloche" style="filter: opacity(0.05)"></div>
-        <div class="carousel">
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/IF-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/IF-landscape.jpg" type="image/jpeg"> <img class="carouselImg z-depth-5" src="img/IF-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/DDMS-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/DDMS-landscape.png" type="image/png"> <img class="carouselImg z-depth-5" src="img/DDMS-landscape.png" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/TA-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/TA-landscape.jpg" type="image/jpeg"> <img class="carouselImg z-depth-5" src="img/TA-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/CC-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/CC-landscape.jpg" type="image/jpeg"> <img class="carouselImg z-depth-5" src="img/CC-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/WK-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/WK-landscape.jpg" type="image/jpeg"> <img class="carouselImg z-depth-5" src="img/WK-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/SA-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/SA-landscape.jpg" type="image/jpeg"> <img class="carouselImg z-depth-5" src="img/SA-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/PHPK-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/PHPK-landscape.jpg" type="image/jpeg"> <img class="carouselImg z-depth-5" src="img/PHPK-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/CCC-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/CCC-landscape.png" type="image/png"> <img class="carouselImg z-depth-5" src="img/CCC-landscape.png" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/SPY-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/SPY-landscape.jpg" type="image/png"> <img class="carouselImg z-depth-5" src="img/SPY-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-            <div class="carousel-item">
-                <picture>
-                    <source class="carouselImg z-depth-5" srcset="img/PC-landscape.webp" type="image/webp">
-                    <source class="carouselImg z-depth-5" srcset="img/PC-landscape.jpg" type="image/jpeg"> <img class="carouselImg z-depth-5" src="img/PC-landscape.jpg" alt="Alt Text!"> </picture>
-            </div>
-        </div>
-    </section>
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="sass.html">Sass</a></li>
+		<li><a href="badges.html">Components</a></li>
+		<li><a href="collapsible.html">JavaScript</a></li>
+	</ul>
 
-    <!-- VALUES -->
-    <section>
-        <div class="parallax-container" id="values">
-            <div class="parallax"><img src="img/detroit.jpg"></div>
-            <div class="container flow-text animated">
-                <h2>Values</h2>
-                <p class="flowed">My name is James (Patrick) Lovallo. I'm a professional web developer serving in the city of Detroit. This is my home, and I am encouraged that there is so much new development happening in the city right now.</p>
-                <p>What's discouraging is seeing people with great ideas and a lot of hustle get stuck because they can't afford the professional servies they need to get their idea off the ground.</p>
-                <p class="flowed">I offer the lowest rates in the industry for nonprofit and for-good businesses so that those doing good work can put more of their limited time and resources into their projects. I only take clients whose work I feel good about supporting
-                    with my time, talent and energy. I insist on meeting my clients in person whenever possible and often grow to think of them as friends. If you need a hand growing your business without breaking the bank, I can help.</p>
-            </div>
-        </div>
-    </section>
+	<section id="gallery">
+		<video autoplay muted loop playsinline>
+			<source src="assets/particles.webm" type="video/webm">
+			<source src="assets/particles.mp4" type="video/mp4">
+		</video>
+		<div class="guilloche"></div>
+		<div class="carousel">
+			<a href="https://www.illegalforeclosures.org/" class="carousel-item" target="_blank">
+				<img src="assets/portfolio/illegalforeclosures.jpg" alt="">
+			</a>
+			<a href="http://ddstoragecompany.com/" class="carousel-item" target="_blank">
+				<img src="assets/portfolio/ddmovingstorage.jpg" alt="">
+			</a>
+			<a href="https://www.carlaforstaterep.com/" class="carousel-item" target="_blank">
+				<img src="assets/portfolio/carlacares.jpg" alt="">
+			</a>
+			<a href="https://westandkit.com/" class="carousel-item" target="_blank">
+				<img src="assets/portfolio/westandkit.jpg" alt="">
+			</a>
+			<a href="https://www.purpleheartpartykids.com/" class="carousel-item" target="_blank">
+				<img src="assets/portfolio/purpleheart.jpg" alt="">
+			</a>
+			<a href="https://www.thumbprintartifacts.com/" class="carousel-item" target="_blank">
+				<img src="assets/portfolio/thumbprint.jpg" alt="">
+			</a>
+			<a href="https://covenantcommunitycare.org/" class="carousel-item" target="_blank">
+				<img src="assets/portfolio/covenantcommunitycare.jpg" alt="">
+			</a>
+		</div>
+	</section>
 
-    <!-- MOBILE GALLERY -->
-    <section id="mobileGallery" class="valign-wrapper hide-on-large-only">
-        <div class=container>
-            <h2 class="white-text">Gallery</h2>
-            <p class="flow-text white-text">Click the info bar below each thumbnail to visit the site.</p><br>
-            <div class="row">
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/IF-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/IF-landscape.jpg" type="image/jpeg"> <img class="mobileGalleryImg z-depth-5" src="img/IF-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/DDMS-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/DDMS-landscape.png" type="image/png"> <img class="mobileGalleryImg z-depth-5" src="img/DDMS-landscape.png" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/TA-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/TA-landscape.jpg" type="image/jpeg"> <img class="mobileGalleryImg z-depth-5" src="img/TA-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/CC-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/CC-landscape.jpg" type="image/jpeg"> <img class="mobileGalleryImg z-depth-5" src="img/CC-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/WK-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/WK-landscape.jpg" type="image/jpeg"> <img class="mobileGalleryImg z-depth-5" src="img/WK-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/SA-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/SA-landscape.jpg" type="image/jpeg"> <img class="mobileGalleryImg z-depth-5" src="img/SA-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/PHPK-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/PHPK-landscape.jpg" type="image/jpeg"> <img class="mobileGalleryImg z-depth-5" src="img/PHPK-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/CCC-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/CCC-landscape.png" type="image/png"> <img class="mobileGalleryImg z-depth-5" src="img/CCC-landscape.png" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/SPY-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/SPY-landscape.jpg" type="image/png"> <img class="mobileGalleryImg z-depth-5" src="img/SPY-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-                <div class="col s12 m6">
-                    <picture>
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/PC-landscape.webp" type="image/webp">
-                        <source class="mobileGalleryImg z-depth-5" srcset="img/PC-landscape.jpg" type="image/jpeg"> <img class="mobileGalleryImg z-depth-5" src="img/PC-landscape.jpg" alt="Alt Text!"> </picture>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="about">
+		<div class="container">
+			<h1 class="clip-text">BOOST YOUR BRAND WITHOUT BREAKING THE BANK.</h1>
+			<p class="flow-text">Patrick on Parker was founded on the belief that quality web design should be accessible to everybody, regardless of their ability to pay. We serve Metro Detroit businesses and nonprofits who are making an impact in the community, and we offer discounted rates for customers who we feel good about supporting with our time, talent and energy.</p>
+			<h1 class="clip-text">WHAT WE OFFER</h1>
+			<blockquote>
+				<ul class="flow-text">
+					<li>High-quality <b class="blue-text text-darken-1">web design</b> to help your brand stand out.</li>
+					<li class="divider"></li>
+					<li><b class="blue-text text-darken-1">Search Engine Optimization</b> to help you get discovered.</li>
+					<li class="divider"></li>
+					<li>100% free and secure <b class="blue-text text-darken-1">hosting &amp; backup</b> with 99.9% uptime guaranteed.</li>
+				</ul>
+			</blockquote>
+			<br />
+		</div>
+	</section>
 
-    <!-- PRICING -->
-    <section id="pricing" class="grey lighten-2">
-        <div class="container">
-            <h2>Pricing</h2>
-            <div class="row">
-                <div class="col s12 m4 l4">
-                    <div class="tier-header flow-text z-depth-3"> Nonprofit </div>
-                    <div class="tier-price teal darken-2">
-                        <h4 style="margin: 5px;">$30</h4>
-                        <p style="margin: 0px;">/ hour</p>
-                    </div>
-                </div>
-                <div class="col s12 m4 l4">
-                    <div class="tier-header flow-text z-depth-3"> Business </div>
-                    <div class="tier-price blue darken-3">
-                        <h4 style="margin: 5px;">$40</h4>
-                        <p style="margin: 0px;">/ hour</p>
-                    </div>
-                </div>
-                <div class="col s12 m4 l4">
-                    <div class="tier-header flow-text z-depth-3"> Political </div>
-                    <div class="tier-price indigo darken-1">
-                        <h4 style="margin: 5px;">$50</h4>
-                        <p style="margin: 0px;">/ hour</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m12 l12">
-                <div class="collection services blue-grey darken-3" style="text-align: center;">
-                    <div class="collection-item white-text blue-grey darken-4 z-depth-3" style="border: none;">
-                        <h4>Services</h4>
-                    </div>
-                    <div class="row">
-                        <div class="col l4 m4 s12">
-                            <div>Web Design</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Graphic Design</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Print Design</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Analytics</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Digital Marketing</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>S.E.O.</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>At-Cost Hosting</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Social Media</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Website Support</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Business Plans</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Reports</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Infographics</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Resumes</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Business Cards</div>
-                        </div>
-                        <div class="col l4 m4 s12">
-                            <div>Market Research</div>
-                        </div>
-                    </div>
-                    <div class="collection-item tier-footer">I charge on a sliding scale to better serve small organizations. Pricing is subject to change according to the scope and complexity of the project.</div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<section id="services" class="white-text">
+		<div class="container">
+			<h1 class="light-blue-text text-darken-1">Services</h1>
+			<p class="flow-text">Essential business and brand development services, all under one roof.</p>
+			<blockquote class="service-list flow-text">
+				<span class="service">Web Design</span>
+				<span class="service">Graphic Design</span>
+				<span class="service">Print Design</span>
+				<span class="service">Hosting</span>
+				<span class="service">Advertising</span>
+				<span class="service">Analytics</span>
+				<span class="service">Ecommerce</span>
+				<span class="service">S.E.O.</span>
+				<span class="service">Social Marketing</span>
+				<span class="service">Market Research</span>
+				<span class="service">Business Plans</span>
+				<span class="service">Reports</span>
+				<span class="service">Infographics</span>
+				<span class="service">Business Cards</span>
+				<span class="service">Resumes</span>
+			</blockquote>
+			<br />
+			<h1 class="light-blue-text text-darken-1">Pricing</h1>
+			<p class="flow-text">We charge hourly flat rates to better serve our customers. Hourly rates help us charge honestly for the work that we do. We'll never sell you a website for $1,000 that only took us 3 hours to make (like this one).</p>
+			<div class="price-columns flow-text">
+				<div class="price-column">
+					<h3>Nonprofit</h3>
+					<div class="secondary">
+						<h1>$30</h1>
+						<div>/hour</div>
+					</div>
+				</div>
+				<div class="price-column">
+					<h3>Business</h3>
+					<div class="secondary">
+						<h1>$40</h1>
+						<div>/hour</div>
+					</div>
+				</div>
+				<div class="price-column">
+					<h3>Political</h3>
+					<div class="secondary">
+						<h1>$45</h1>
+						<div>/hour</div>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+		</div>
+	</section>
 
-    <!-- FOOTER -->
-    <footer class="page-footer" id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col s12 m4 center">
-                    <h5 class="white-text">Hours</h5>
-                    <ul>
-                        <li>
-                            <p class="grey-text text-lighten-3">M - F | 7am - 5pm | EST</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col s12 m4 center">
-                    <h5 class="white-text">Email</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="mailto:info@patrickonparker.com">info@patrickonparker.com</a></li>
-                    </ul>
-                </div>
-                <div class="col s12 m4 center">
-                    <h5 class="white-text">Phone</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="tel:3133896074">(313) 389-6074</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="copyright"> © 2019 Patrick on Parker</div>
-        </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            M.AutoInit();
-        });
-    </script>
+	<section id="contactus">
+		<div class="container">
+			<div class="row">
+				<div class="col m12 l5">
+					<h1 class="clip-text">Contact Us</h1>
+					<a href="mailto:info@patrickonparker.com" target="_blank" class="btn-large waves-effect waves-light light-blue darken-1 z-depth-1">
+						<i class="material-icons left">email</i>
+						info@patrickonparker.com
+					</a>
+					<br />
+					<br />
+					<a href="tel:3134662293" target="_blank" class="btn-large waves-effect waves-light light-blue darken-1 z-depth-1">
+						<i class="material-icons left">phone</i>
+						313-466-2293
+					</a>
+					<br />
+					<br />
+					<a href="sms:3134662293" target="_blank" class="btn-large waves-effect waves-light light-blue darken-1 z-depth-1">
+						<i class="material-icons left">chat_bubble</i>
+						313-466-2293
+					</a>
+				</div>
+				<div class="col m12 l7">
+					<h1 class="clip-text">Contact Form</h1>
+					<form method="POST" action="https://formspree.io/info@patrickonparker.com">
+						<div class="row">
+							<div class="input-field col s12">
+								<i class="material-icons prefix">account_circle</i>
+								<input id="name" name="Name" type="text" class="validate">
+								<label class="active" for="name">Name</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<i class="material-icons prefix">email</i>
+								<input id="email" name="Email Address" type="email" class="validate">
+								<label for="email">Email Address</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<i class="material-icons prefix">phone</i>
+								<input id="phone" name="Phone Number" type="tel" class="validate">
+								<label for="phone">Phone Number</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<i class="material-icons prefix">message</i>
+								<textarea id="message" name="Message" class="materialize-textarea"></textarea>
+								<label for="message">Your Message</label>
+							</div>
+						</div>
+						<button type="submit" class="btn-large waves-effect waves-light light-blue darken-1 z-depth-1">
+							<i class="material-icons left">send</i>
+							Send
+						</button>
+					</form>
+				</div>
+			</div>
+			<br />
+		</div>
+	</section>
+
+	<section id="copyright" class="black white-text center-align">
+		© 2019 Patrick on Parker
+	</section>
+
+	<div id="preloader">
+		<div class="preloader-wrapper big active">
+			<div class="spinner-layer spinner-blue">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+
+			<div class="spinner-layer spinner-red">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+
+			<div class="spinner-layer spinner-yellow">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+
+			<div class="spinner-layer spinner-green">
+				<div class="circle-clipper left">
+					<div class="circle"></div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle"></div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			M.AutoInit();
+		});
+		window.onload = function () {
+			var loader = document.getElementById('preloader');
+			loader.parentNode.removeChild(loader);
+		};
+	</script>
+
 </body>
 
 </html>
