@@ -124,7 +124,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	background: url('assets/guilloche.png') center center;
 	background-size: cover;
 	opacity: 0.3;
-	animation: spin 150s infinite;
+	animation: spin 120s infinite;
 	filter: drop-shadow(1px 1px 3px black);
 }
 
