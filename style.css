@@ -27,6 +27,26 @@ ul.right li:not(:hover) {
 	background: transparent !important;
 }
 
+.sidenav {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sidenav li a {
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.sidenav li {
+	border-top: 1px solid dimgrey;
+}
+
+.sidenav li:last-of-type {
+	border-bottom: 1px solid dimgrey;
+}
+
 .carousel {
 	height: 550px;
 }
@@ -142,6 +162,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 		background: transparent;
 		color: #1E88E5;
 	}
+
 	.guilloche {
 		display: none;
 	}
