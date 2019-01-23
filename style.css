@@ -75,12 +75,12 @@ ul.right li:not(:hover) {
 	margin: 5px 0;
 }
 
-blockquote {
-	border-left-color: #cc4488;
+.accent-text {
+	color: #0080ce;
 }
 
-.mulberry {
-	color: #cc4488;
+blockquote {
+	border-left-color: #0080ce;
 }
 
 .row {
@@ -88,6 +88,7 @@ blockquote {
 }
 
 .btn-large {
+	background: #0080ce !important;
 	border-radius: 27px;
 }
 
@@ -105,7 +106,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly])+label,
 input[type=number]:not(.browser-default):focus:not([readonly])+label,
 input[type=search]:not(.browser-default):focus:not([readonly])+label,
 textarea.materialize-textarea:focus:not([readonly])+label {
-	color: #00acc1;
+	color: #0080ce;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -121,7 +122,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-	border-bottom: 1px solid #00acc1 !important;
+	border-bottom: 1px solid #0080ce !important;
 }
 
 #preloader {
@@ -156,7 +157,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 .clip-text {
 	/* SUMMER */
-	background: url('assets/timelapse.jpg') 10% center;
+	background: url('assets/timelapse.jpg') center 33%;
 	background-size: cover;
 	background-clip: text;
 	-webkit-background-clip: text;
