@@ -1,5 +1,9 @@
 /* MATERIALIZE COMPONENTS */
 
+body {
+	background: white;
+}
+
 h1 {
 	font-weight: bold;
 }
@@ -16,6 +20,10 @@ nav .brand-logo {
 	height: 100%;
 	display: flex;
 	align-items: center;
+}
+
+nav .brand-logo img {
+	height: 40%;
 }
 
 ul.right {
@@ -67,6 +75,14 @@ ul.right li:not(:hover) {
 	margin: 5px 0;
 }
 
+blockquote {
+	border-left-color: #cc4488;
+}
+
+.mulberry {
+	color: #cc4488;
+}
+
 .row {
 	margin: 0 -.75rem;
 }
@@ -89,7 +105,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly])+label,
 input[type=number]:not(.browser-default):focus:not([readonly])+label,
 input[type=search]:not(.browser-default):focus:not([readonly])+label,
 textarea.materialize-textarea:focus:not([readonly])+label {
-	color: #1E88E5;
+	color: #00acc1;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -105,7 +121,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-	border-bottom: 1px solid #1E88E5 !important;
+	border-bottom: 1px solid #00acc1 !important;
 }
 
 #preloader {
@@ -129,6 +145,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	justify-content: center;
 	position: relative;
 	overflow: hidden;
+	background: rgba(0, 0, 0, .25)
 }
 
 #gallery video {
@@ -137,22 +154,13 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	z-index: -1;
 }
 
-.guilloche {
-	position: absolute;
-	height: 1000px;
-	width: 1000px;
-	background: url('assets/guilloche.png') center center;
-	background-size: cover;
-	opacity: 0.3;
-	animation: spin 120s infinite;
-	filter: drop-shadow(1px 1px 3px black);
-}
-
 .clip-text {
-	background: linear-gradient(135deg, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+	/* SUMMER */
+	background: url('assets/timelapse.jpg') 10% center;
+	background-size: cover;
 	background-clip: text;
 	-webkit-background-clip: text;
-	color: #1E88E5;
+	color: #00acc1;
 	color: transparent;
 }
 
@@ -160,22 +168,18 @@ textarea.materialize-textarea:focus:not([readonly]) {
 (-ms-high-contrast: active) {
 	.clip-text {
 		background: transparent;
-		color: #1E88E5;
-	}
-
-	.guilloche {
-		display: none;
+		color: #00acc1;
 	}
 }
 
 #services {
-	background: black url("assets/3px-tile.png");
+	background: #000;
+	background-image: url("https://www.transparenttextures.com/patterns/buried.png");
 }
 
 .service-list {
 	display: flex;
 	flex-flow: row wrap;
-	border-left-color: #1E88E5;
 }
 
 .service {
@@ -217,17 +221,17 @@ textarea.materialize-textarea:focus:not([readonly]) {
 		height: 262px;
 	}
 
-	.guilloche {
-		height: 550px;
-		width: 550px;
-	}
-
 	.price-column {
 		width: 50%;
 	}
 }
 
 @media (max-width: 600px) {
+
+	nav .brand-logo img {
+		height: 18px;
+	}
+
 	.service {
 		width: 50%;
 	}
@@ -238,24 +242,10 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 	.carousel .carousel-item {
 		width: 300px;
-		 height: 225px;
-	}
-	
-	.guilloche {
-	    display: none;
+		height: 225px;
 	}
 
 	.price-column {
 		width: 100%;
-	}
-}
-
-@keyframes spin {
-	from {
-		transform: rotate(0deg);
-	}
-
-	to {
-		transform: rotate(360deg);
 	}
 }
