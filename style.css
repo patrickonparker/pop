@@ -175,7 +175,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 #services {
 	background: #000;
-	background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+	background-image: url("assets/buried.png");
 }
 
 .service-list {
