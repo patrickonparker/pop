@@ -131,9 +131,9 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	justify-content: center;
 	background: white;
 	position: fixed;
-	top: 0;
+	top: -300px;
 	right: 0;
-	bottom: 0;
+	bottom: -300px;
 	left: 0;
 	z-index: 1000;
 }
