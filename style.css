@@ -138,6 +138,18 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	z-index: 1000;
 }
 
+@media only screen and (min-width: 993px) {
+	.row .col.l6 {
+		width: auto;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.row .col.l6 {
+		width: 50%;
+	}
+}
+
 /* CUSTOM COMPONENTS */
 
 #gallery {
