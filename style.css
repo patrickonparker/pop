@@ -186,8 +186,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 }
 
 #services {
-	background: #000;
-	background-image: url("assets/buried.png");
+	background: linear-gradient(to bottom right, rgba(0,0,0,0.66) 0%, rgba(0,0,0,0.66) 100%), url("assets/blacksand.jpg") no-repeat top center/cover;
 }
 
 .service-list {
@@ -269,6 +268,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 	top: 10px;
 	animation: fadeInUp 3s;
 	text-align: center;
+	font-size: 14.5px;
 }
 
 @keyframes fadeInUp {
