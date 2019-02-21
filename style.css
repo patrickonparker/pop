@@ -76,11 +76,11 @@ ul.right li:not(:hover) {
 }
 
 .accent-text {
-	color: #0080ce;
+	color: #1976d2;
 }
 
 blockquote {
-	border-left-color: #0080ce;
+	border-left-color: #1976d2;
 }
 
 .row {
@@ -88,7 +88,7 @@ blockquote {
 }
 
 .btn-large {
-	background: #0080ce !important;
+	background: #1976d2 !important;
 	border-radius: 27px;
 }
 
@@ -106,7 +106,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly])+label,
 input[type=number]:not(.browser-default):focus:not([readonly])+label,
 input[type=search]:not(.browser-default):focus:not([readonly])+label,
 textarea.materialize-textarea:focus:not([readonly])+label {
-	color: #0080ce;
+	color: #1976d2;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -122,7 +122,7 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-	border-bottom: 1px solid #0080ce !important;
+	border-bottom: 1px solid #1976d2 !important;
 }
 
 #preloader {
