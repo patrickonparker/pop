@@ -1,9 +1,15 @@
 .mtk7,
-.mtk11 {
-	font-style: italic;
-	font-family: "Fira Code iScript";
+.mtk9,
+.mtk10 {
+  font-style: italic !important;
+  font-family: 'Fira Code iScript';
+  font-size: 16px !important;
 }
 
 .mtki {
-	font-style: normal;
+  font-style: normal;
+}
+
+.mtk1 {
+  font-weight: bold !important;
 }
